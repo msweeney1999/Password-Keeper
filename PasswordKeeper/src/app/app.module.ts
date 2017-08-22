@@ -9,11 +9,15 @@ import {AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from '../environments/environment';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MaterialModule} from '@angular/material'
-import {FlexLayoutModule} from '@angular/flex-layout'
+import {FlexLayoutModule} from '@angular/flex-layout';
+import { SigninComponent } from './signin/signin.component';
+import { MainComponent } from './main/main.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SigninComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

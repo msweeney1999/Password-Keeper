@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  signedIn: boolean;
+
+  signOut() {
+    console.log('sign out');
+    this.signedIn = false;
+  }
+
 }
