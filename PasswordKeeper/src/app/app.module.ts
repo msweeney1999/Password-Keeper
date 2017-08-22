@@ -9,6 +9,7 @@ import {AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from '../environments/environment';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MaterialModule} from '@angular/material'
+import {FlexLayoutModule} from '@angular/flex-layout'
 
 @NgModule({
   declarations: [
@@ -23,6 +24,8 @@ import {MaterialModule} from '@angular/material'
     AngularFireAuthModule,
     BrowserAnimationsModule,
     MaterialModule,
+    FlexLayoutModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
